@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #5243c2;
+    --dark-color: #3e3e3e;
+    --purple-light: #f496d1;
+    --deep-dark: #0b0d17;
+}
+
+body {
+    color: var(--dark-color);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*====================================== 
+                Header Style 
+======================================== */
+.brand,
+.brand:hover {
+    color: var(--dark-color);
+    font-size: 1.45rem;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    padding: 0;
+    border: none;
+}
+
+.navbar-nav {
+    gap: 14px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    color: var(--dark-color) !important;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*====================================== 
+                Banner Style 
+======================================== */
+.banner h5 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.banner a {
+    color: var(--primary-color);
+    background: #ffffff;
+    font-weight: 600;
+    padding: 8px 28px;
+    transition: all 0.3s;
+}
+
+.banner a:hover {
+    color: #ffffff;
+    background-color: var(--primary-color);
+}
