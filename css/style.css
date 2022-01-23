@@ -8,7 +8,7 @@
 :root {
     --primary-color: #5243c2;
     --dark-color: #3e3e3e;
-    --purple-light: #f496d1;
+    --purple-light: #f496d29f;
     --deep-dark: #0b0d17;
 }
 
@@ -23,9 +23,34 @@ a {
     text-decoration: none;
 }
 
-:focus {
+:focus,
+.btn-close:focus {
     outline: none;
     box-shadow: none;
+}
+
+.padding-top {
+    padding-top: 120px;
+}
+
+.padding-bottom {
+    padding-bottom: 120px;
+}
+
+h2 {
+    font-size: 2.4rem;
+    color: var(--deep-dark);
+    margin-bottom: 70px;
+}
+
+.toast {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 0;
+    border-left: 7px solid var(--primary-color);
+    background: #ffffff;
+    border-radius: 0;
 }
 
 /*====================================== 
@@ -83,4 +108,27 @@ a {
 .banner a:hover {
     color: #ffffff;
     background-color: var(--primary-color);
+}
+
+/*====================================== 
+              Features Style 
+======================================== */
+.item-card {
+    background: #fff5fb;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 20px 35px 20px;
+}
+
+.item-card img {
+    max-height: 60px;
+    max-width: 60px;
+    margin-bottom: 20px;
+}
+
+.item-card h4 {
+    color: var(--dark-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
 }
