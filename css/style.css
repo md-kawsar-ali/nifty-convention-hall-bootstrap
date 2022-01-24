@@ -320,3 +320,94 @@ footer a {
 footer a img {
     opacity: 0.95;
 }
+
+/*====================================== 
+              Responsive Style 
+======================================== */
+
+@media (max-width: 1199.98px) {
+    .banner h5 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+    .pricing-card span {
+        font-size: 1.8rem;
+    }
+    .pricing-card h4 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        gap: 0;
+        margin-top: 15px;
+    }
+    .w-50 {
+        width: 70% !important;
+    }
+    .banner h5 {
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .faqs .accordion {
+        margin-bottom: 35px;
+    }
+    .pricing .g-0,
+    .pricing .gx-0 {
+        --bs-gutter-x: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .brand,
+    .brand:hover {
+        font-size: 1.3rem;
+    }
+    .banner img {
+        min-height: 420px;
+        object-fit: cover;
+    }
+    .banner h5 {
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+    .padding-top {
+        padding-top: 80px;
+    }
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+    .pricing .row > * {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .pricing-card {
+        padding: 30px 25px 35px;
+        background: var(--purple-light);
+        border-radius: 20px;
+    }
+    .pricing-card span {
+        font-size: 1.6rem;
+    }
+    .pricing-card h4 {
+        font-size: 1.5rem;
+    }
+    .pricing-card a {
+        background: #ffffff;
+    }
+    footer .d-flex {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+    .toast {
+        max-width: 290px;
+    }
+}
